@@ -1,0 +1,28 @@
+﻿# Java build output
+*.class
+**/target/
+**/build/
+
+# Java server/temp
+*.log
+*.pid
+**/temp/
+**/logs/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Legacy project docs / proprietary files
+*.doc
+*.docx
+*.pdf
+*.dmp
+*.dump

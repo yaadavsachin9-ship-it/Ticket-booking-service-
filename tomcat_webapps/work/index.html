@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+	<TITLE> Bluewega Travels </TITLE>
+	<STYLE>
+		body { margin:0; font-family:Verdana, Arial, sans-serif; background: linear-gradient(180deg, #edf7ff 0%, #e8f3ff 100%); }
+		.hero-shell {
+			width:100%; min-height:100vh; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,#0d3b66 0%,#1d6fa5 48%,#4ea3d8 100%);
+		}
+		.hero-panel {
+			width: 70%; max-width: 880px; background: rgba(255,255,255,0.94); border-radius: 28px; box-shadow: 0 28px 48px rgba(11,39,61,0.24); padding: 40px 30px 28px;
+			text-align:center;
+		}
+		.hero-brand { margin-bottom:16px; }
+		.hero-copy { font-size: 15px; line-height: 1.8; color:#4d6982; margin: 16px 0 24px; }
+		.hero-image { border-radius:18px; border:1px solid #dfeefb; box-shadow:0 18px 28px rgba(13,59,102,0.12); }
+		.cta-wrap { margin-top:22px; }
+		button {
+			border:none; cursor:pointer; border-radius:12px; height:42px; padding:0 22px; margin:0 8px; font-weight:bold; font-size:14px;
+		}
+		.primary-btn { background:linear-gradient(135deg,#1d6fa5,#3ea4e3); color:#fff; box-shadow:0 12px 22px rgba(29,111,165,0.22); }
+		.secondary-btn { background:#fff; color:#0d3b66; border:1px solid #d5e6f8; }
+	</STYLE>
+</HEAD>
+
+<SCRIPT SRC="index.js"></SCRIPT>
+
+<BODY>
+	<div class="hero-shell">
+		<div class="hero-panel">
+			<div class="hero-brand">
+				<img src="titlelogo.bmp" width="330" height="86" alt="Bluewega Travels" style="max-width:100%;">
+			</div>
+			<img class="hero-image" src="bus.jpg" width="440" height="230" alt="Welcome to Bluewega Travels">
+			<div class="hero-copy">Premium travel and booking experiences for city commutes, holiday planning, and dependable ticket reservations.</div>
+			<div class="cta-wrap">
+				<button class="primary-btn" type="button" onClick="f1()">Click to Enter</button>
+				<button class="secondary-btn" type="button" onClick="javascript:window.close()">Exit</button>
+			</div>
+		</div>
+	</div>
+</BODY>
+</HTML>
